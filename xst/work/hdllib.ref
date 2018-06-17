@@ -1,0 +1,10 @@
+AR binbcd14 behavioral "D:/temp/xilinx/P8 - Counter/binBCD14.vhd" sub00/vhpl05 1528081277
+AR mod10kcnt behavioral "D:/temp/xilinx/P8 - Counter/mod10Kcnt.vhd" sub00/vhpl03 1528081275
+AR clkdiv behavioral "D:/temp/xilinx/P8 - Counter/clkdiv.vhd" sub00/vhpl01 1528081273
+EN clkdiv NULL "D:/temp/xilinx/P8 - Counter/clkdiv.vhd" sub00/vhpl00 1528081272
+EN mod10kcnt NULL "D:/temp/xilinx/P8 - Counter/mod10Kcnt.vhd" sub00/vhpl02 1528081274
+AR counter_top behavioral "D:/temp/xilinx/P8 - Counter/counter_top.vhd" sub00/vhpl09 1528081281
+EN binbcd14 NULL "D:/temp/xilinx/P8 - Counter/binBCD14.vhd" sub00/vhpl04 1528081276
+AR x7segbc behavioral "D:/temp/xilinx/P8 - Counter/x7segbc.vhd" sub00/vhpl07 1528081279
+EN x7segbc NULL "D:/temp/xilinx/P8 - Counter/x7segbc.vhd" sub00/vhpl06 1528081278
+EN counter_top NULL "D:/temp/xilinx/P8 - Counter/counter_top.vhd" sub00/vhpl08 1528081280

@@ -1,0 +1,19 @@
+NET "a_to_g[0]" LOC = N16;
+NET "a_to_g[1]" LOC = F13;
+NET "a_to_g[2]" LOC = R16;
+NET "a_to_g[3]" LOC = P15;
+NET "a_to_g[4]" LOC = N15;
+NET "a_to_g[5]" LOC = G13;
+NET "a_to_g[6]" LOC = E14;
+
+NET "an[0]" LOC = D14;
+NET "an[1]" LOC = G14;
+NET "an[2]" LOC = F14;
+NET "an[3]" LOC = E13;
+
+NET "dp" LOC = P16;
+
+NET "start_stop" LOC = M13;
+NET "reset" LOC = M14;
+
+NET "mclk" LOC = T9;

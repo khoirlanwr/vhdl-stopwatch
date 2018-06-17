@@ -1,0 +1,5 @@
+vhdl work "D:\temp\xilinx\P8 - Counter\x7segbc.vhd"
+vhdl work "D:\temp\xilinx\P8 - Counter\mod10Kcnt.vhd"
+vhdl work "D:\temp\xilinx\P8 - Counter\clkdiv.vhd"
+vhdl work "D:\temp\xilinx\P8 - Counter\binBCD14.vhd"
+vhdl work "D:\temp\xilinx\P8 - Counter\counter_top.vhd"

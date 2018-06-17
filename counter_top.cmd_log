@@ -1,0 +1,102 @@
+xst -intstyle ise -ifn "D:/Data/MODUL MATA KULIAH/SEMESTER 2/RL2 - Pak Nando/Tugas Praktikum/P8 - Counter/counter_top.xst" -ofn "D:/Data/MODUL MATA KULIAH/SEMESTER 2/RL2 - Pak Nando/Tugas Praktikum/P8 - Counter/counter_top.syr" 
+xst -intstyle ise -ifn "D:/Data/MODUL MATA KULIAH/SEMESTER 2/RL2 - Pak Nando/Tugas Praktikum/P8 - Counter/counter_top.xst" -ofn "D:/Data/MODUL MATA KULIAH/SEMESTER 2/RL2 - Pak Nando/Tugas Praktikum/P8 - Counter/counter_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-ft256-4 "counter_top.ngc" counter_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o counter_top_map.ncd counter_top.ngd counter_top.pcf 
+par -w -intstyle ise -ol high -t 1 counter_top_map.ncd counter_top.ncd counter_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml counter_top.twx counter_top.ncd -o counter_top.twr counter_top.pcf 
+bitgen -intstyle ise -f counter_top.ut counter_top.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 "counter_top.ngc" counter_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o counter_top_map.ncd counter_top.ngd counter_top.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 "counter_top.ngc" counter_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o counter_top_map.ncd counter_top.ngd counter_top.pcf 
+xst -intstyle ise -ifn "D:/Data/MODUL MATA KULIAH/SEMESTER 2/RL2 - Pak Nando/Tugas Praktikum/P8 - Counter/counter_top.xst" -ofn "D:/Data/MODUL MATA KULIAH/SEMESTER 2/RL2 - Pak Nando/Tugas Praktikum/P8 - Counter/counter_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 "counter_top.ngc" counter_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o counter_top_map.ncd counter_top.ngd counter_top.pcf 
+xst -intstyle ise -ifn "D:/Data/MODUL MATA KULIAH/SEMESTER 2/RL2 - Pak Nando/Tugas Praktikum/P8 - Counter/counter_top.xst" -ofn "D:/Data/MODUL MATA KULIAH/SEMESTER 2/RL2 - Pak Nando/Tugas Praktikum/P8 - Counter/counter_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 "counter_top.ngc" counter_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o counter_top_map.ncd counter_top.ngd counter_top.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 "counter_top.ngc" counter_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o counter_top_map.ncd counter_top.ngd counter_top.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 "counter_top.ngc" counter_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o counter_top_map.ncd counter_top.ngd counter_top.pcf 
+par -w -intstyle ise -ol high -t 1 counter_top_map.ncd counter_top.ncd counter_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml counter_top.twx counter_top.ncd -o counter_top.twr counter_top.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f counter_top.ut counter_top.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 "counter_top.ngc" counter_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o counter_top_map.ncd counter_top.ngd counter_top.pcf 
+par -w -intstyle ise -ol high -t 1 counter_top_map.ncd counter_top.ncd counter_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml counter_top.twx counter_top.ncd -o counter_top.twr counter_top.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f counter_top.ut counter_top.ncd 
+xst -intstyle ise -ifn "D:/Data/MODUL MATA KULIAH/SEMESTER 2/RL2 - Pak Nando/Tugas Praktikum/P8 - Counter/counter_top.xst" -ofn "D:/Data/MODUL MATA KULIAH/SEMESTER 2/RL2 - Pak Nando/Tugas Praktikum/P8 - Counter/counter_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 "counter_top.ngc" counter_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o counter_top_map.ncd counter_top.ngd counter_top.pcf 
+par -w -intstyle ise -ol high -t 1 counter_top_map.ncd counter_top.ncd counter_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml counter_top.twx counter_top.ncd -o counter_top.twr counter_top.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f counter_top.ut counter_top.ncd 
+xst -intstyle ise -ifn "D:/Data/MODUL MATA KULIAH/SEMESTER 2/RL2 - Pak Nando/Tugas Praktikum/P8 - Counter/counter_top.xst" -ofn "D:/Data/MODUL MATA KULIAH/SEMESTER 2/RL2 - Pak Nando/Tugas Praktikum/P8 - Counter/counter_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 "counter_top.ngc" counter_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o counter_top_map.ncd counter_top.ngd counter_top.pcf 
+par -w -intstyle ise -ol high -t 1 counter_top_map.ncd counter_top.ncd counter_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml counter_top.twx counter_top.ncd -o counter_top.twr counter_top.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f counter_top.ut counter_top.ncd 
+xst -intstyle ise -ifn "D:/Data/MODUL MATA KULIAH/SEMESTER 2/RL2 - Pak Nando/Tugas Praktikum/P8 - Counter/counter_top.xst" -ofn "D:/Data/MODUL MATA KULIAH/SEMESTER 2/RL2 - Pak Nando/Tugas Praktikum/P8 - Counter/counter_top.syr" 
+xst -intstyle ise -ifn "D:/Data/MODUL MATA KULIAH/SEMESTER 2/RL2 - Pak Nando/Tugas Praktikum/P8 - Counter/counter_top.xst" -ofn "D:/Data/MODUL MATA KULIAH/SEMESTER 2/RL2 - Pak Nando/Tugas Praktikum/P8 - Counter/counter_top.syr" 
+xst -intstyle ise -ifn "D:/Data/MODUL MATA KULIAH/SEMESTER 2/RL2 - Pak Nando/Tugas Praktikum/P8 - Counter/counter_top.xst" -ofn "D:/Data/MODUL MATA KULIAH/SEMESTER 2/RL2 - Pak Nando/Tugas Praktikum/P8 - Counter/counter_top.syr" 
+xst -intstyle ise -ifn "D:/Data/MODUL MATA KULIAH/SEMESTER 2/RL2 - Pak Nando/Tugas Praktikum/P8 - Counter/counter_top.xst" -ofn "D:/Data/MODUL MATA KULIAH/SEMESTER 2/RL2 - Pak Nando/Tugas Praktikum/P8 - Counter/counter_top.syr" 
+xst -intstyle ise -ifn "D:/Data/MODUL MATA KULIAH/SEMESTER 2/RL2 - Pak Nando/Tugas Praktikum/P8 - Counter/counter_top.xst" -ofn "D:/Data/MODUL MATA KULIAH/SEMESTER 2/RL2 - Pak Nando/Tugas Praktikum/P8 - Counter/counter_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 "counter_top.ngc" counter_top.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 "counter_top.ngc" counter_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o counter_top_map.ncd counter_top.ngd counter_top.pcf 
+par -w -intstyle ise -ol high -t 1 counter_top_map.ncd counter_top.ncd counter_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml counter_top.twx counter_top.ncd -o counter_top.twr counter_top.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f counter_top.ut counter_top.ncd 
+xst -intstyle ise -ifn "D:/temp/xilinx/P8 - Counter/counter_top.xst" -ofn "D:/temp/xilinx/P8 - Counter/counter_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 "counter_top.ngc" counter_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o counter_top_map.ncd counter_top.ngd counter_top.pcf 
+par -w -intstyle ise -ol high -t 1 counter_top_map.ncd counter_top.ncd counter_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml counter_top.twx counter_top.ncd -o counter_top.twr counter_top.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f counter_top.ut counter_top.ncd 
+xst -intstyle ise -ifn "D:/temp/xilinx/P8 - Counter/counter_top.xst" -ofn "D:/temp/xilinx/P8 - Counter/counter_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 "counter_top.ngc" counter_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o counter_top_map.ncd counter_top.ngd counter_top.pcf 
+par -w -intstyle ise -ol high -t 1 counter_top_map.ncd counter_top.ncd counter_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml counter_top.twx counter_top.ncd -o counter_top.twr counter_top.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f counter_top.ut counter_top.ncd 
+xst -intstyle ise -ifn "D:/temp/xilinx/P8 - Counter/counter_top.xst" -ofn "D:/temp/xilinx/P8 - Counter/counter_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 "counter_top.ngc" counter_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o counter_top_map.ncd counter_top.ngd counter_top.pcf 
+par -w -intstyle ise -ol high -t 1 counter_top_map.ncd counter_top.ncd counter_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml counter_top.twx counter_top.ncd -o counter_top.twr counter_top.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f counter_top.ut counter_top.ncd 
+xst -intstyle ise -ifn "D:/temp/xilinx/P8 - Counter/counter_top.xst" -ofn "D:/temp/xilinx/P8 - Counter/counter_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 "counter_top.ngc" counter_top.ngd  
+xst -intstyle ise -ifn "D:/temp/xilinx/P8 - Counter/counter_top.xst" -ofn "D:/temp/xilinx/P8 - Counter/counter_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 "counter_top.ngc" counter_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o counter_top_map.ncd counter_top.ngd counter_top.pcf 
+par -w -intstyle ise -ol high -t 1 counter_top_map.ncd counter_top.ncd counter_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml counter_top.twx counter_top.ncd -o counter_top.twr counter_top.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f counter_top.ut counter_top.ncd 
+xst -intstyle ise -ifn "D:/temp/xilinx/P8 - Counter/counter_top.xst" -ofn "D:/temp/xilinx/P8 - Counter/counter_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 "counter_top.ngc" counter_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o counter_top_map.ncd counter_top.ngd counter_top.pcf 
+par -w -intstyle ise -ol high -t 1 counter_top_map.ncd counter_top.ncd counter_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml counter_top.twx counter_top.ncd -o counter_top.twr counter_top.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f counter_top.ut counter_top.ncd 
+xst -intstyle ise -ifn "D:/temp/xilinx/P8 - Counter/counter_top.xst" -ofn "D:/temp/xilinx/P8 - Counter/counter_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 "counter_top.ngc" counter_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o counter_top_map.ncd counter_top.ngd counter_top.pcf 
+par -w -intstyle ise -ol high -t 1 counter_top_map.ncd counter_top.ncd counter_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml counter_top.twx counter_top.ncd -o counter_top.twr counter_top.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f counter_top.ut counter_top.ncd 
+xst -intstyle ise -ifn "D:/temp/xilinx/P8 - Counter/counter_top.xst" -ofn "D:/temp/xilinx/P8 - Counter/counter_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 "counter_top.ngc" counter_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o counter_top_map.ncd counter_top.ngd counter_top.pcf 
+par -w -intstyle ise -ol high -t 1 counter_top_map.ncd counter_top.ncd counter_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml counter_top.twx counter_top.ncd -o counter_top.twr counter_top.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f counter_top.ut counter_top.ncd 
+xst -intstyle ise -ifn "D:/temp/xilinx/P8 - Counter/counter_top.xst" -ofn "D:/temp/xilinx/P8 - Counter/counter_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 "counter_top.ngc" counter_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o counter_top_map.ncd counter_top.ngd counter_top.pcf 
+par -w -intstyle ise -ol high -t 1 counter_top_map.ncd counter_top.ncd counter_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml counter_top.twx counter_top.ncd -o counter_top.twr counter_top.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f counter_top.ut counter_top.ncd 

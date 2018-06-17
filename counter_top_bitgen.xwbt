@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\temp\xilinx\P8 - Counter\counter_top.ncd
+OUTFILE=D:\temp\xilinx\P8 - Counter\counter_top.bit
+FAMILY=Spartan3
+PART=xc3s200-4ft256
+WORKINGDIR=D:\temp\xilinx\P8 - Counter
+LICENSE=WebPack
+USER_INFO=__0_0_0
